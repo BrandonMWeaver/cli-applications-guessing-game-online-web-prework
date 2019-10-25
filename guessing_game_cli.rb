@@ -3,8 +3,11 @@ def get_random_number
 end
 
 def run_guessing_game
+  random_number = get_random_number
   input = gets.chomp
   while input != "exit" do
-    
+    if input == random_number
+      puts "You guessed the correct number!"
+    end
   end
 end
