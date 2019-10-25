@@ -1,3 +1,5 @@
+require 'pry'
+
 def run_guessing_game
   random_number = rand(6) + 1
   input = gets.chomp
@@ -8,4 +10,5 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{random_number}."
   end
+  binding.pry
 end
