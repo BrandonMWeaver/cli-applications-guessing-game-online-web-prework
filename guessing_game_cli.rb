@@ -4,4 +4,7 @@ end
 
 def run_guessing_game
   input = gets.chomp
+  while input != "exit" do
+    
+  end
 end
