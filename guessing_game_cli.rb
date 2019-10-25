@@ -3,5 +3,5 @@ def get_random_number
 end
 
 def run_guessing_game
-  input = gets
+  input = gets.chomp
 end
