@@ -8,6 +8,7 @@ def run_guessing_game
   while input != "exit" do
     if input == random_number
       puts "You guessed the correct number!"
+      break
     end
   end
 end
